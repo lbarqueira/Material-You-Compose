@@ -20,4 +20,3 @@ If you want to move to Material 3 w/ Jetpack Compose but also still need compone
 This gist maps most of the colors and typography from new to old
 
 ![Image 1](Images/material-theme.png "Material Theme")
-![Image 2](Images/realme6i_wp.jpg "Realme Wallpaper")
