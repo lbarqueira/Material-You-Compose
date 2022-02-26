@@ -74,15 +74,17 @@ private val AppLightColorScheme = lightColorScheme(
     // shadow = md_theme_light_shadow,
 )
 
+// https://gist.github.com/hvisser/8db0669439bad5b8d7491d4ef3f6d3de
+// conversions based on https://material.io/blog/migrating-material-3, deprecated colors set to Colors.Red
 @Composable
 fun fromMaterial3Theme(isLight: Boolean): Colors {
     val scheme = Material3MaterialTheme.colorScheme
     return Colors(
         primary = scheme.primary,
         onPrimary = scheme.onPrimary,
-        primaryVariant = scheme.tertiary,
+        primaryVariant = scheme.tertiary, // primaryVariant = Color.Red
         secondary = scheme.secondary,
-        secondaryVariant = scheme.secondary,
+        secondaryVariant = scheme.secondary, // secondaryVariant = Color.Red
         onSecondary = scheme.onSecondary,
         background = scheme.background,
         onBackground = scheme.onBackground,

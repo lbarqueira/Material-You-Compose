@@ -1,5 +1,10 @@
 ## Material You using Jetpack Compose
 
+### Repo to play with Material Themes and MDC
+
+### [Android Code Search (https://cs.android.com/) - Material 3 Samples](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/material3/material3/samples/src/main/java/androidx/compose/material3/samples/)
+These samples are related with the Compose Material 3 Google Play Store App - https://play.google.com/store/apps/details?id=androidx.compose.material.catalog
+
 ### [Implementing Material You using Jetpack Compose](https://youtu.be/jrfuHyMlehc)
 
 ### [Material You & Figma: Bringing Dynamic Color & brand together - Rody Davis, Ivy Knight (Schema 2021)]([https://youtu.be/clDuqcKgNBQ](https://youtu.be/clDuqcKgNBQ))
