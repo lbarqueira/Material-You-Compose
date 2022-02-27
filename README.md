@@ -1,5 +1,7 @@
 ## Material You using Jetpack Compose
 
+### [GDGCPT 2/22: A Deep Dive into Jetpack Compose](https://www.youtube.com/watch?v=dYiRQePW1_M)
+
 ### [Android Code Search (https://cs.android.com/) - Material 3 Samples](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/material3/material3/samples/src/main/java/androidx/compose/material3/samples/)
 These samples are related with the Compose Material 3 Google Play Store App - https://play.google.com/store/apps/details?id=androidx.compose.material.catalog
 

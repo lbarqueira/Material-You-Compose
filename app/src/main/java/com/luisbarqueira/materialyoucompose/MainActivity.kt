@@ -58,6 +58,7 @@ fun ColumnScope.AppDrawer() {
     // DividerItem()
     // SimpleScaffoldWithTopBar()
     MenuSample()
+    DividerItem()
     Spacer(Modifier.height(10.dp))
     SliderSample()
 }
@@ -66,7 +67,7 @@ fun ColumnScope.AppDrawer() {
 fun SliderSample() {
     var sliderPosition by remember { mutableStateOf(0f) }
     Column {
-        Text(text = sliderPosition.toString())
+        Text(text = sliderPosition.toString(), color = MaterialTheme.colorScheme.onSurface)
         Slider(value = sliderPosition, onValueChange = { sliderPosition = it })
     }
 }
